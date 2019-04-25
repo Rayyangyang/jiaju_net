@@ -1,0 +1,94 @@
+.content .product-left ul li{
+    height: 99px;
+    line-height: 99px;
+    font-size: 14px;
+    color: #252525;
+}
+.content .product-right{
+    width: 871px;
+    height: 559px;
+    border: 2px solid #dcdada;
+}
+.content .product-right{
+    text-align: center;
+    padding:12px 20px;
+}
+.content .product-right h2{
+    line-height: 56px;
+    height: 56px;
+    font-size: 17px;
+}
+.content .product-right p{
+    color: #a5a5b1;
+    font-size: 13px;
+}
+.content .product-right p span{
+    margin:0 15px;
+}
+.content .product-right p i{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image:url(../images/icon.png);
+    background-position: -2px -2px;
+    vertical-align: top;
+}
+.content .product-right p i.wx{
+    background-image:url(../images/icon.png);
+    background-position: -25px -2px; 
+}
+.content .product-right p i.wb{
+    background-image:url(../images/icon.png);
+    background-position: -47px -2px; 
+}
+.content .product-right p i.ren{
+    background-image:url(../images/icon.png);
+    background-position: -70px -2px; 
+}
+.content .product-right p i.zone{
+    background-image:url(../images/icon.png);
+    background-position: -94px -2px; 
+}
+.content .product-right p i.dou{
+    background-image:url(../images/icon.png);
+    background-position: -117px -2px; 
+}
+.content .product-right p i.flower{
+    background-image:url(../images/icon.png);
+    background-position: -139px -2px; 
+}
+.content .product-right p:nth-of-type(2){
+    line-height: 28px;
+    background-color:#f5f5f5;
+    font-size: 12px;
+    text-align: left;
+    text-indent: 2em;
+    padding:6px 40px;
+    margin-top:18px;
+}
+.content .product-right  h2:nth-of-type(2){
+    font-size: 14px;
+    text-align: left;
+    margin-left:42px;
+}
+.content .product-right p:nth-of-type(3){
+    line-height: 28px;
+    font-size: 14px;
+    text-align: left;
+    text-indent: 2em;
+    padding:0px 14px;
+}
+.content .product-right .next{
+    text-align: left;
+    margin-left:14px;
+    margin-top:50px;
+}
+.content .product-right span{
+	color:#88a3af;
+	font-size: 12px;
+    line-height: 25px;
+}
+.content .product-right i{
+	font-style: normal;
+	color:#362f3a;
+}

@@ -1,0 +1,87 @@
+.content .product .product-left img{
+    height: 300px;
+}
+.content .product-right{
+    width: 910px;
+    margin-left:22px;
+    padding-top:20px;
+}
+.content .product-right form{
+    margin-top:20px;
+}
+.content .product-right h2{
+    font-size: 16px;
+    height: 60px;
+}
+.content .product-right span{
+    font-size: 12px;
+    color:#606369;
+}
+.content .product-right i{
+    color: #ff0000;
+    font-size: 16px;
+}
+.content .product-right input{
+    display: block;
+    height: 40px;
+    width: 790px;
+    border:2px solid #e1e1e1;
+    margin:14px 0 22px 0;
+    padding-left:10px;
+}
+.content .product-right input:focus{
+    outline: none;
+}
+.content .product-right .radio input{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: -4px;
+}
+.content .product-right .radio span{
+   display: inline-block;
+   width:15px;
+   height: 15px;
+   background-color: #ccc;
+   border-radius: 10px;
+   vertical-align: -3px;
+   margin:0 0 0 5px;
+   position: relative;
+}
+.content .product-right .radio span:after{
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 8px;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 4px;
+    top: 1px;
+}
+.content .product-right .radio input{
+    display: none;
+}
+.content .product-right .radio input:checked+span{
+      background-color: rgb(2, 255, 255);
+}
+.content .product-right a{
+    display: inline-block;
+    margin-top:20px;
+}
+.content .product-right textarea{
+    display: block;
+    width: 800px;
+    height: 72px;
+    margin-top:12px;
+}
+.content .product-right input.submit{
+    display: inline-block;
+    width: 800px;
+    height: 44px;
+    background-color: #20bed7;
+    color:#fff;
+    border: none;
+    cursor: pointer;
+}

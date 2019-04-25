@@ -1,0 +1,175 @@
+/* 头部 */
+
+/* header结束 */
+/* 具体属性在common.css */
+
+/* banner开始 */
+.banner{
+    height: 549px;
+    background-image:url(../images/banner1.jpg);
+    position: relative;
+}
+.banner .content{
+    width: 457px;
+    height: 212px;
+    position: absolute;
+    top:165px;
+    left:478px;
+    text-align: center;
+    color:#fff;
+    background: url('../images/border.png') no-repeat;
+    padding:30px 0 52px 0;
+}
+.banner .content h2{
+    font-size: 44px;
+    margin-bottom:22px;
+}
+.banner .content p{
+    font-size: 20px;
+    margin-bottom:10px;
+}
+/* banner结束 */
+/* feature开始  */
+.feature {
+    margin-top:27px;
+}
+.feature ul li{
+    float: left;
+    width: 400px;
+    height: 211px;
+    color:#fff;
+    text-align: center;
+}
+.feature ul li:nth-of-type(1){
+    background:url(../images/01.jpg) no-repeat;
+}
+.feature ul li:nth-of-type(2){
+    background:url(../images/02.jpg) no-repeat;
+}
+.feature ul li:nth-of-type(3){
+    background:url(../images/03.jpg) no-repeat;
+}
+.feature ul li h2{
+    font-size: 22px;
+    margin:44px 0 26px 0;
+}
+.feature ul li p{
+    margin-bottom:13px;
+}
+/* feature结束 */
+/* 产品部分开始 */
+.product{
+    margin-top:87px;
+
+}
+.product ul{
+    width: 568px;
+}
+.product ul li{
+    float: left;
+    width:270px;
+    height:275px;
+    margin-bottom:27px;
+    cursor: pointer;
+    background-image: url(../images/pic01.jpg);
+}
+.product ul .storage{
+    background-image: url(../images/pic02.jpg);
+}
+.product ul .acc{
+    background-image: url(../images/pic03.jpg);
+}
+.product ul .kitchen{
+    background-image: url(../images/pic04.jpg);
+}
+.product ul li:nth-of-type(odd){
+    margin-right:27px;
+}
+.product ul li.daily:hover{
+    background-image: url(../images/pic01-01.jpg);
+}
+.product ul li.storage:hover{
+    background-image: url(../images/pic02-01.jpg);
+}
+.product ul li.acc:hover{
+    background-image: url(../images/pic03-01.jpg);
+}
+.product ul li.kitchen:hover{
+    background-image: url(../images/pic02-01.jpg);
+}
+.product .right{
+    width: 602px;
+    height: 580px;
+    background-image: url('../images/pic05.jpg');
+    cursor: pointer;
+}
+.product .right:hover{
+    background-image: url(../images/pic05-01.jpg);
+}
+/* product 结束 */
+.aboutus{
+    height: 508px;
+    background-image: url('../images/banner3.jpg');
+    background-position: center;
+    margin:23px 0 66px 0;
+}
+.aboutus .content{
+    padding-top:80px;
+    text-align: center;
+}
+.aboutus .content h2{
+    font-size: 28px;
+    color:#3c3c3c;
+    width: 116px;
+    height: 80px;
+    background-image: url(../images/nav_bg02.png);
+    background-repeat: no-repeat;
+    margin:0 auto;
+    background-position: center -4px;
+}
+.aboutus .content p{
+    width: 682px;
+    margin:0 auto;
+    line-height: 30px;
+    font-size: 16px;
+    color:#6b6b6b
+}
+.aboutus .content .btn{
+    width: 154px;
+    height: 46px;
+    background-color: #25bbce;
+    border-radius:46px;
+    border-style: none;
+    color:#fff;
+    margin-top:38px;
+    cursor: pointer;
+}
+/* aboutus结束 */
+/* news开始 */
+.news img{
+    width: 381px;
+    margin-bottom: 11px;
+}
+.news ul{
+    width: 381px;
+}
+.news ul li{
+    padding: 10px 0;
+    font-size:14px;
+    border-bottom:3px solid #dbdbdb;
+}
+.news ul li a{
+    font-size: 14px; 
+    color:#15bded;
+    margin-right:6px;
+}
+.news ul li span{
+    float: right;
+}
+.news .center{
+    margin-left:29px;
+}
+/* news 结束 */
+/* footer开始 */
+
+

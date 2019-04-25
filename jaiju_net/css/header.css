@@ -1,0 +1,31 @@
+/* 头部可复用属性 */
+.header .top{
+    height: 45px;
+    line-height: 45px;
+}
+.header .top a{
+    color:#fff;
+}
+.header .top a:first-child{
+    margin-right:20px;
+}  
+.header .menu{
+    height: 103px; 
+    line-height: 103px;
+}
+.header .menu ul{
+    margin-right:29px;
+}
+.header .menu ul li{
+    float: left;
+    height:103px;
+    margin-left:75px;
+}
+.header .menu ul li a{
+    color: #252525;
+    font-size: 15px;
+    position: relative;
+}
+.header .menu ul li.current, .header .menu ul li:hover{
+    background: url('../images/nav_move.jpg') no-repeat center 32px;
+}

@@ -1,0 +1,238 @@
+ /* 可复用样式 */
+/* 版心 */
+.wrapper{
+    width:1200px;
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float:right;
+}
+.clear{
+    clear: both;
+}
+.clearfix:after{
+    content:'';
+    display: block;
+    height:0px;
+    clear: both;
+}
+/* 背景 */
+.bg{
+    background-color: #252525;
+}
+/* 文字颜色 */
+.fwhite{
+    color:#fff;
+}
+.h-style{
+    font-size: 28px;
+    height: 96px;
+    display: inline-block;
+    background-image: url('../images/nav_bg02.png');
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+.p-style{
+    display: inline-block;
+    font-size: 18px;
+    color:#bbb8b5;
+}
+
+/* 头部可复用属性 */
+/* .header .top{
+    height: 45px;
+    line-height: 45px;
+}
+.header .top a{
+    color:#fff;
+}
+.header .top a:first-child{
+    margin-right:20px;
+}  
+.header .menu{
+    height: 103px; 
+    line-height: 103px;
+}
+.header .menu ul{
+    margin-right:29px;
+}
+.header .menu ul li{
+    float: left;
+    height:103px;
+    margin-left:75px;
+}
+.header .menu ul li a{
+    color: #252525;
+    font-size: 15px;
+    position: relative;
+}
+.header .menu ul li.current, .header .menu ul li:hover{
+    background: url('../images/nav_move.jpg') no-repeat center 32px;
+} */
+
+/* footer可分复用属性
+.footer {
+    margin-top:68px;
+    padding-top:70px;
+    background-color: #141414;
+    height: 416px;
+}
+.footer-left{
+    width: 380px;
+    color:#727272;
+    font-size: 15px;
+    margin-right:78px;
+}
+.footer-left img{
+    margin-bottom:38px;
+}
+.footer .footer-left span{
+    display: inline-block;
+    width: 26px;
+    height: 18px;
+    background-image: url('../images/icon.jpg');
+    background-position: 5px 0;
+    text-align: center;
+    margin-right:5px;
+}
+.footer .footer-left .phone{
+    background-position: 0 -40px;
+}
+.footer .footer-left .message{
+    background-position: 0 20px;
+}
+.footer .footer-left p{
+    margin-bottom:26px;
+}
+.footer h2{
+    color:#fff;
+    font-weight: normal;
+    font-size: 20px;
+    background-position: 0 -8px;;
+}
+.footer .footer-center{
+    width:240px;
+    margin-right:126px;
+}
+.footer h2{
+    height: 86px;
+}
+.footer .footer-center ul li{
+    color:#818388;
+    float: left;
+    font-size: 14px;
+    margin-bottom:29px;
+}
+.footer .footer-center ul li:nth-of-type(odd){
+    margin-right:90px;
+}
+.footer .footer-right input{
+    width: 221px;
+    background-color: #333;
+    height: 47px;
+    border-style:none;
+    padding-left: 6px;
+    color:#adadad;
+}
+.footer .footer-right input:focus{
+    outline: none;
+}
+.footer .footer-right input:nth-of-type(2){
+    width: 100px;
+    vertical-align:;
+    padding:0px;
+    color:#fff;
+    text-align: center;
+    background-color: #3aa27f;
+}
+.footer .footer-right p{
+    color:#818388;
+    margin-top:41px;
+    height: 34px;
+    line-height: 34px;
+    font-size:16px;
+    display: inline-block;
+}
+.footer .footer-right .weibo{
+    display: inline-block;
+    background-image: url('../images/fenxiang.png');
+    width:32px;
+    height:29px;
+    vertical-align: -7px;
+    margin:0 6px;
+    cursor: pointer;
+}
+.footer .footer-right .wechat{
+    display: inline-block;
+    background-image: url('../images/fenxiang.png');
+    width:32px;
+    height:29px;
+    vertical-align: -7px;
+    background-position: 35px 0;
+    cursor: pointer;
+}
+
+.footer .copyright{
+    margin-top:74px;
+    height:76px;
+    background-color: #000;
+    color:#7b7d82;
+    text-align: center;
+    line-height: 80px;
+} */
+
+/* 可复用banner区域 */
+.content .banner{
+    height:310px;
+    background-image: url(../images/banner5.jpg)
+}
+.content a{
+	color: #837877;
+	line-height: 52px;
+}
+
+/* content left list 可复用区域 */
+.content .product{
+	padding-top:46px;
+	border-top:1px solid #f3f3f3;
+}
+.content .product h2{
+	font-size:22px;
+	background-position: 0px -7px;
+	height: 70px;
+}
+.content .product-left ul li{
+	width: 260px;
+	height: 47px;
+	background-color: #f2f2f2;
+	text-align: center;
+	line-height: 47px;
+	margin-bottom: 3px;
+	color: #434334;
+}
+.content .product .product-left img{
+	width:260px;
+	margin-top:21px;
+}
+/* 可复用btn 样式 */
+.content .product-right .btn{
+    text-align: center;
+}
+.content .product-right .btn p{
+    display: inline-block;
+    font-size: 14px;
+    color: #606369;
+    margin-right: 30px;
+}
+.content .product-right .btn a{
+    border:1px solid #e4e3e3;
+    padding:2px 4px;
+    margin-right:2px;
+}
+.content .product-right .btn a.active{
+    border:none;
+    color:#ff0000;
+}

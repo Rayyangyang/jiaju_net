@@ -1,0 +1,16 @@
+.content .product .product-right{
+    margin-left:26px;
+    width: 910px;
+}
+.content .product .product-right h2{
+    font-size: 18px;
+    font-style: normal;
+    line-height: 37px;
+    height: 37px;
+}
+.content .product .product-right p{
+    line-height: 32px;
+    font-size: 14px;
+    color:#818388;
+    margin-bottom:34px;
+}
